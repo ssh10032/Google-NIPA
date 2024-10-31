@@ -1,0 +1,15 @@
+cuda:0
+current epoch is 0
+torch.Size([8, 15, 12])
+Traceback (most recent call last):
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train.py", line 165, in <module>
+    main()
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train.py", line 96, in main
+    anchor_emb = model(anchor)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/model.py", line 51, in forward
+    x,  = self.lstm1(x)
+ValueError: too many values to unpack (expected 1)

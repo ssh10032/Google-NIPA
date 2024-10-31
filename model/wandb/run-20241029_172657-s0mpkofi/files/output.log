@@ -1,0 +1,24 @@
+cuda
+current epoch is 0
+Traceback (most recent call last):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/landmark_extraction/dataloader/dataloader.py", line 76, in __getitem__
+    anchor = torch.tensor(segment, dtype=torch.float32)
+TypeError: can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.

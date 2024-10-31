@@ -1,0 +1,16 @@
+{"time":"2024-10-29T13:34:04.221067346+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T13:34:04.221097925+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241029_133404-b1pth0ax/logs/debug-core.log"}
+{"time":"2024-10-29T13:34:04.432918454+09:00","level":"INFO","msg":"created new stream","id":"b1pth0ax"}
+{"time":"2024-10-29T13:34:04.433014919+09:00","level":"INFO","msg":"stream: started","id":"b1pth0ax"}
+{"time":"2024-10-29T13:34:04.433150832+09:00","level":"INFO","msg":"sender: started","stream_id":"b1pth0ax"}
+{"time":"2024-10-29T13:34:04.433061313+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"b1pth0ax"}}
+{"time":"2024-10-29T13:34:04.433121318+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"b1pth0ax"}}
+{"time":"2024-10-29T13:34:04.825864405+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T13:35:10.262765975+09:00","level":"INFO","msg":"stream: closing","id":"b1pth0ax"}
+{"time":"2024-10-29T13:35:10.262829637+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T13:35:10.26383938+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T13:35:11.159342421+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T13:35:13.143651194+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"b1pth0ax"}}
+{"time":"2024-10-29T13:35:13.143725948+09:00","level":"INFO","msg":"sender: closed","stream_id":"b1pth0ax"}
+{"time":"2024-10-29T13:35:13.143713246+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"b1pth0ax"}}
+{"time":"2024-10-29T13:35:13.143866218+09:00","level":"INFO","msg":"stream: closed","id":"b1pth0ax"}

@@ -1,0 +1,26 @@
+cuda
+Epoch [1/100], Training Loss: 0.6982
+Epoch [1/100], Validation Loss: 0.6931
+Epoch [2/100], Training Loss: 0.6930
+Epoch [2/100], Validation Loss: 0.6931
+Epoch [3/100], Training Loss: 0.6931
+Epoch [3/100], Validation Loss: 0.6931
+Epoch [4/100], Training Loss: 0.6928
+Epoch [4/100], Validation Loss: 0.6931
+Epoch [5/100], Training Loss: 0.6927
+Epoch [5/100], Validation Loss: 0.6931
+Epoch [6/100], Training Loss: 0.6931
+Epoch [6/100], Validation Loss: 0.6931
+Epoch [7/100], Training Loss: 0.6931
+Epoch [7/100], Validation Loss: 0.6931
+Epoch [8/100], Training Loss: 0.6931
+Epoch [8/100], Validation Loss: 0.6931
+Epoch [9/100], Training Loss: 0.6931
+Epoch [9/100], Validation Loss: 0.6931
+Epoch [10/100], Training Loss: 0.6931
+Epoch [10/100], Validation Loss: 0.6931
+Epoch [11/100], Training Loss: 0.6931
+Epoch [11/100], Validation Loss: 0.6931
+Early stopping triggered!
+Epoch [11/100], Average Loss: 0.6931
+Training complete!

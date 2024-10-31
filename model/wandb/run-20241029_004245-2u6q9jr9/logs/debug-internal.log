@@ -1,0 +1,20 @@
+{"time":"2024-10-29T00:42:45.942814235+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T00:42:45.942846186+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241029_004245-2u6q9jr9/logs/debug-core.log"}
+{"time":"2024-10-29T00:42:46.053935274+09:00","level":"INFO","msg":"created new stream","id":"2u6q9jr9"}
+{"time":"2024-10-29T00:42:46.054016711+09:00","level":"INFO","msg":"stream: started","id":"2u6q9jr9"}
+{"time":"2024-10-29T00:42:46.054129347+09:00","level":"INFO","msg":"sender: started","stream_id":"2u6q9jr9"}
+{"time":"2024-10-29T00:42:46.054057722+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"2u6q9jr9"}}
+{"time":"2024-10-29T00:42:46.054210975+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"2u6q9jr9"}}
+{"time":"2024-10-29T00:42:46.368343887+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T02:24:58.379028868+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T02:24:58.380032636+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T02:24:58.792114998+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-29T02:24:58.792144243+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-29T02:24:58.792156307+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-29T02:24:59.291480877+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T02:24:59.363785591+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary","runtime_seconds":0.072009275}],"total_operations":1}}
+{"time":"2024-10-29T02:25:00.675586676+09:00","level":"INFO","msg":"stream: closing","id":"2u6q9jr9"}
+{"time":"2024-10-29T02:25:00.675623122+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"2u6q9jr9"}}
+{"time":"2024-10-29T02:25:00.675656461+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"2u6q9jr9"}}
+{"time":"2024-10-29T02:25:00.675719848+09:00","level":"INFO","msg":"sender: closed","stream_id":"2u6q9jr9"}
+{"time":"2024-10-29T02:25:00.67578278+09:00","level":"INFO","msg":"stream: closed","id":"2u6q9jr9"}

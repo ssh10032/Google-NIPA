@@ -1,0 +1,20 @@
+{"time":"2024-10-28T19:22:10.205105215+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-28T19:22:10.205136041+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241028_192210-cd168irt/logs/debug-core.log"}
+{"time":"2024-10-28T19:22:10.315840927+09:00","level":"INFO","msg":"created new stream","id":"cd168irt"}
+{"time":"2024-10-28T19:22:10.3164965+09:00","level":"INFO","msg":"stream: started","id":"cd168irt"}
+{"time":"2024-10-28T19:22:10.316596892+09:00","level":"INFO","msg":"sender: started","stream_id":"cd168irt"}
+{"time":"2024-10-28T19:22:10.31657926+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"cd168irt"}}
+{"time":"2024-10-28T19:22:10.316702373+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"cd168irt"}}
+{"time":"2024-10-28T19:22:10.611121966+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-28T21:04:54.48903087+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-28T21:04:54.489961329+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-28T21:04:54.931287985+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-28T21:04:54.93132354+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-28T21:04:54.931336745+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-28T21:04:55.443963092+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-28T21:04:55.489611295+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary","runtime_seconds":0.045413615}],"total_operations":1}}
+{"time":"2024-10-28T21:04:56.766019195+09:00","level":"INFO","msg":"stream: closing","id":"cd168irt"}
+{"time":"2024-10-28T21:04:56.766052126+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"cd168irt"}}
+{"time":"2024-10-28T21:04:56.766083116+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"cd168irt"}}
+{"time":"2024-10-28T21:04:56.766140022+09:00","level":"INFO","msg":"sender: closed","stream_id":"cd168irt"}
+{"time":"2024-10-28T21:04:56.766200135+09:00","level":"INFO","msg":"stream: closed","id":"cd168irt"}

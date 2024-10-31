@@ -1,0 +1,8 @@
+cuda:0
+Epoch [1/2000] Training:   0%|          | 0/89 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train_bc.py", line 266, in <module>
+    main()
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train_bc.py", line 128, in main
+    anchor = torch.stack([anchor,pos1_tensor],dim=0)
+RuntimeError: stack expects each tensor to be equal size, but got [8, 30, 12] at entry 0 and [10, 30, 12] at entry 1

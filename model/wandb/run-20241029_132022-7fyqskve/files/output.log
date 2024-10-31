@@ -1,0 +1,21 @@
+cuda
+Traceback (most recent call last):
+  File "/home/baebro/landmark_extraction/model/train.py", line 83, in <module>
+    for batch_idx, (anchor, pos, neg) in enumerate(train_dataloader):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 211, in collate
+    return [
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 212, in <listcomp>
+    collate(samples, collate_fn_map=collate_fn_map)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 155, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 272, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [15, 12] at entry 0 and [0, 12] at entry 1

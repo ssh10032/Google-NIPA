@@ -1,0 +1,13 @@
+cuda:0
+current epoch is 0
+torch.Size([8, 15, 12])
+torch.Size([8, 15, 128])
+torch.Size([8, 15, 128])
+torch.Size([8, 15, 256])
+torch.Size([8, 15, 256])
+torch.Size([8, 15, 512])
+torch.Size([8, 15, 512])
+torch.Size([8, 15, 512])
+torch.Size([8, 15, 512])
+torch.Size([8, 256])
+torch.Size([8, 64])

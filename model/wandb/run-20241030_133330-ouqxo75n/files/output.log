@@ -1,0 +1,3 @@
+cuda:0
+current epoch is 0
+torch.Size([8, 15, 12])

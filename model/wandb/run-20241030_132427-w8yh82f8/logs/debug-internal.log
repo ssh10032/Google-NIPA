@@ -1,0 +1,8 @@
+{"time":"2024-10-30T13:24:27.755087603+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T13:24:27.755117969+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/nipa_ws/nipaproj_ws/model/wandb/run-20241030_132427-w8yh82f8/logs/debug-core.log"}
+{"time":"2024-10-30T13:24:27.866357301+09:00","level":"INFO","msg":"created new stream","id":"w8yh82f8"}
+{"time":"2024-10-30T13:24:27.866434197+09:00","level":"INFO","msg":"stream: started","id":"w8yh82f8"}
+{"time":"2024-10-30T13:24:27.866608131+09:00","level":"INFO","msg":"sender: started","stream_id":"w8yh82f8"}
+{"time":"2024-10-30T13:24:27.866530439+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"w8yh82f8"}}
+{"time":"2024-10-30T13:24:27.866596941+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"w8yh82f8"}}
+{"time":"2024-10-30T13:24:28.23991579+09:00","level":"INFO","msg":"Starting system monitor"}

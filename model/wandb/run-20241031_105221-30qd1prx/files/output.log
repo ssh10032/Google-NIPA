@@ -1,0 +1,35 @@
+cuda:0
+Epoch [1/2000] Training: 100%|██████████| 192/192 [00:05<00:00, 33.88it/s, N_classification_loss=0.683, P_classification_loss=0.697, loss=1.66]
+
+Epoch [1/2000], Training Loss: 1.8327, P_Classification Loss: 0.7146, N_Classification Loss: 0.6708
+Epoch [1/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 107.96it/s, N_classification_loss=0.682, P_classification_loss=0.7, loss=1.8]   
+Epoch [1/2000], Validation Loss: 1.7981, P_Classification Loss: 0.1755, , N_Classification Loss: 0.1706
+Epoch [2/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 22.89it/s, N_classification_loss=0.681, P_classification_loss=0.701, loss=1.7] 
+Epoch [2/2000], Training Loss: 1.7885, P_Classification Loss: 0.7130, N_Classification Loss: 0.6714
+Epoch [2/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 106.25it/s, N_classification_loss=0.688, P_classification_loss=0.696, loss=2.04]
+Epoch [2/2000], Validation Loss: 1.8170, P_Classification Loss: 0.1748, , N_Classification Loss: 0.1710
+Epoch [3/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 23.83it/s, N_classification_loss=0.687, P_classification_loss=0.7, loss=1.73]  
+Epoch [3/2000], Training Loss: 1.7540, P_Classification Loss: 0.7033, N_Classification Loss: 0.6808
+Epoch [3/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 106.16it/s, N_classification_loss=0.679, P_classification_loss=0.705, loss=1.58]
+Epoch [3/2000], Validation Loss: 1.7294, P_Classification Loss: 0.1765, , N_Classification Loss: 0.1699
+Epoch [4/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 22.85it/s, N_classification_loss=0.668, P_classification_loss=0.737, loss=1.64]
+Epoch [4/2000], Training Loss: 1.7559, P_Classification Loss: 0.7100, N_Classification Loss: 0.6728
+Epoch [4/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 103.02it/s, N_classification_loss=0.669, P_classification_loss=0.715, loss=1.76]
+Epoch [4/2000], Validation Loss: 1.7095, P_Classification Loss: 0.1782, , N_Classification Loss: 0.1675
+Epoch [5/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 23.16it/s, N_classification_loss=0.682, P_classification_loss=0.716, loss=1.85]
+Epoch [5/2000], Training Loss: 1.7324, P_Classification Loss: 0.7031, N_Classification Loss: 0.6781
+Epoch [5/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 92.87it/s, N_classification_loss=0.673, P_classification_loss=0.704, loss=1.57]
+Epoch [5/2000], Validation Loss: 1.6987, P_Classification Loss: 0.1770, , N_Classification Loss: 0.1678
+Epoch [6/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 22.52it/s, N_classification_loss=0.662, P_classification_loss=0.697, loss=1.56]
+Epoch [6/2000], Training Loss: 1.7316, P_Classification Loss: 0.7071, N_Classification Loss: 0.6739
+Epoch [6/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 103.13it/s, N_classification_loss=0.681, P_classification_loss=0.698, loss=1.78]
+Epoch [6/2000], Validation Loss: 1.6634, P_Classification Loss: 0.1755, , N_Classification Loss: 0.1695
+Epoch [7/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 23.18it/s, N_classification_loss=0.671, P_classification_loss=0.69, loss=1.91] 
+Epoch [7/2000], Training Loss: 1.7315, P_Classification Loss: 0.7039, N_Classification Loss: 0.6762
+Epoch [7/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 81.95it/s, N_classification_loss=0.675, P_classification_loss=0.699, loss=1.64]
+Epoch [7/2000], Validation Loss: 1.7067, P_Classification Loss: 0.1752, , N_Classification Loss: 0.1694
+Epoch [8/2000] Training: 100%|██████████| 192/192 [00:08<00:00, 22.34it/s, N_classification_loss=0.691, P_classification_loss=0.691, loss=1.6] 
+Epoch [8/2000], Training Loss: 1.7164, P_Classification Loss: 0.7003, N_Classification Loss: 0.6793
+Epoch [8/2000] Validation: 100%|██████████| 48/48 [00:00<00:00, 103.21it/s, N_classification_loss=0.681, P_classification_loss=0.696, loss=1.6] 
+Epoch [8/2000], Validation Loss: 1.6582, P_Classification Loss: 0.1744, , N_Classification Loss: 0.1700
+Epoch [9/2000] Training:  30%|██▉       | 57/192 [00:02<00:05, 23.94it/s, N_classification_loss=0.686, P_classification_loss=0.697, loss=1.79]

@@ -1,0 +1,24 @@
+cuda:0
+Epoch [1/2000] Training:   0%|          | 0/192 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train_bc.py", line 219, in <module>
+    main()
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train_bc.py", line 98, in main
+    anchor_emb = F.normalize(model(anchor_emb), dim=1)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/model.py", line 51, in forward
+    x, _ = self.lstm1(x)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1100, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1000, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 312, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 12, got 64

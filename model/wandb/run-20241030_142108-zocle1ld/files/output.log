@@ -1,0 +1,24 @@
+cuda:0
+current epoch is 0
+batch : 0 loss : 0.7145768404006958
+batch : 1 loss : 0.6909151077270508
+batch : 2 loss : 0.6626704931259155
+batch : 3 loss : 0.7472203969955444
+Traceback (most recent call last):
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train.py", line 165, in <module>
+    main()
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train.py", line 87, in main
+    for batch_idx, (anchor, pos, neg) in enumerate(train_dataloader):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/nipa_ws/nipaproj_ws/dataloader/dataloader.py", line 178, in __getitem__
+    raise ValueError(f"NaN or Inf value detected in negative segment at index {neg_idx}")
+ValueError: NaN or Inf value detected in negative segment at index 586

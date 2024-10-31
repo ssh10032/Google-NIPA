@@ -1,0 +1,11 @@
+cuda:0
+Traceback (most recent call last):
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train.py", line 165, in <module>
+    main()
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train.py", line 68, in main
+    model = skeletonLSTM(feature_dim, output_dim).to(device)
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/model.py", line 33, in __init__
+    self.lstm1 = nn.LSTM(input_size=self.feature_dim, hidden_size=128, num_layers=1, batch_first=True)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1968, in __setattr__
+    raise AttributeError(
+AttributeError: cannot assign module before Module.__init__() call

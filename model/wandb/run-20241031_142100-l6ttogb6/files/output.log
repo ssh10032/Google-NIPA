@@ -1,0 +1,23 @@
+cuda:0
+Epoch [1/10] Training: 100%|██████████| 89/89 [00:04<00:00, 19.04it/s, N_classification_loss=0.684, P_classification_loss=0.667, contrastive_loss=0.56, loss=2.59] 
+Epoch [1/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 90.24it/s, N_classification_loss=0.703, P_classification_loss=0.619, contrastive_loss=0.0412, loss=2.02]
+Epoch [2/10] Training: 100%|██████████| 89/89 [00:04<00:00, 21.31it/s, N_classification_loss=0.664, P_classification_loss=0.706, contrastive_loss=0.0921, loss=2.15]
+Epoch [2/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 91.72it/s, N_classification_loss=0.653, P_classification_loss=0.68, contrastive_loss=0.201, loss=2.2]  
+Epoch [3/10] Training: 100%|██████████| 89/89 [00:04<00:00, 21.33it/s, N_classification_loss=0.757, P_classification_loss=0.562, contrastive_loss=0.216, loss=2.19] 
+Epoch [3/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 92.10it/s, N_classification_loss=0.742, P_classification_loss=0.66, contrastive_loss=0.634, loss=2.74] 
+Epoch [4/10] Training: 100%|██████████| 89/89 [00:04<00:00, 22.22it/s, N_classification_loss=0.584, P_classification_loss=0.675, contrastive_loss=0.326, loss=2.22] 
+Epoch [4/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 93.17it/s, N_classification_loss=0.283, P_classification_loss=0.872, contrastive_loss=1.58e-5, loss=1.73]
+Epoch [5/10] Training: 100%|██████████| 89/89 [00:04<00:00, 21.05it/s, N_classification_loss=0.869, P_classification_loss=0.574, contrastive_loss=0.00239, loss=2.17]
+Epoch [5/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 91.24it/s, N_classification_loss=0.618, P_classification_loss=0.748, contrastive_loss=0.587, loss=2.64]
+Epoch [6/10] Training: 100%|██████████| 89/89 [00:04<00:00, 20.61it/s, N_classification_loss=0.591, P_classification_loss=0.818, contrastive_loss=0.631, loss=2.74] 
+Epoch [6/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 89.47it/s, N_classification_loss=0.436, P_classification_loss=0.766, contrastive_loss=3.04e-6, loss=1.8]
+Epoch [7/10] Training: 100%|██████████| 89/89 [00:03<00:00, 26.62it/s, N_classification_loss=0.504, P_classification_loss=0.692, contrastive_loss=0.016, loss=1.81]  
+Epoch [7/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 98.48it/s, N_classification_loss=0.602, P_classification_loss=0.803, contrastive_loss=0.661, loss=2.77]   
+Epoch [8/10] Training: 100%|██████████| 89/89 [00:03<00:00, 24.52it/s, N_classification_loss=0.683, P_classification_loss=0.539, contrastive_loss=0.0944, loss=1.93] 
+Epoch [8/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 93.53it/s, N_classification_loss=0.373, P_classification_loss=0.565, contrastive_loss=1.19e-7, loss=1.41]
+Epoch [9/10] Training: 100%|██████████| 89/89 [00:04<00:00, 20.58it/s, N_classification_loss=0.944, P_classification_loss=0.326, contrastive_loss=1.87, loss=3.77]   
+Epoch [9/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 91.83it/s, N_classification_loss=0.399, P_classification_loss=0.56, contrastive_loss=1.79e-7, loss=1.44]
+Epoch [10/10] Training: 100%|██████████| 89/89 [00:04<00:00, 21.56it/s, N_classification_loss=0.747, P_classification_loss=0.485, contrastive_loss=0.0471, loss=1.89] 
+Epoch [10/10] Validation: 100%|██████████| 23/23 [00:00<00:00, 89.17it/s, N_classification_loss=0.808, P_classification_loss=0.633, contrastive_loss=0.409, loss=2.57]
+
+Training complete!

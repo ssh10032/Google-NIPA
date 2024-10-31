@@ -1,0 +1,11 @@
+cuda
+Traceback (most recent call last):
+  File "/home/baebro/landmark_extraction/model/train.py", line 95, in <module>
+    loss = criterion(anchor_emb, pos_emb, neg_emb)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baebro/landmark_extraction/dataloader/dataloader.py", line 132, in forward
+    anchor, positive, negative = F.normalize(anchor, dim=1), F.normalize(positive, dim=1), F.normalize(negative,
+NameError: name 'F' is not defined

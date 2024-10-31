@@ -1,0 +1,19 @@
+{"time":"2024-10-31T10:44:38.971090818+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T10:44:38.971122338+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/nipa_ws/nipaproj_ws/model/wandb/run-20241031_104438-ffpsbjjg/logs/debug-core.log"}
+{"time":"2024-10-31T10:44:39.081196025+09:00","level":"INFO","msg":"created new stream","id":"ffpsbjjg"}
+{"time":"2024-10-31T10:44:39.081258604+09:00","level":"INFO","msg":"stream: started","id":"ffpsbjjg"}
+{"time":"2024-10-31T10:44:39.081376204+09:00","level":"INFO","msg":"sender: started","stream_id":"ffpsbjjg"}
+{"time":"2024-10-31T10:44:39.081304266+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ffpsbjjg"}}
+{"time":"2024-10-31T10:44:39.08138853+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ffpsbjjg"}}
+{"time":"2024-10-31T10:44:39.467241552+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-31T10:50:58.477230421+09:00","level":"INFO","msg":"stream: closing","id":"ffpsbjjg"}
+{"time":"2024-10-31T10:50:58.477292309+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-31T10:50:58.478114814+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-31T10:50:58.702229093+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-31T10:50:58.702261869+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-31T10:50:58.702274698+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-31T10:50:59.223137842+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-31T10:50:59.503724235+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ffpsbjjg"}}
+{"time":"2024-10-31T10:50:59.50380718+09:00","level":"INFO","msg":"sender: closed","stream_id":"ffpsbjjg"}
+{"time":"2024-10-31T10:50:59.503794269+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ffpsbjjg"}}
+{"time":"2024-10-31T10:50:59.503920256+09:00","level":"INFO","msg":"stream: closed","id":"ffpsbjjg"}

@@ -1,0 +1,19 @@
+{"time":"2024-10-30T15:04:15.303313465+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T15:04:15.303343532+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/nipa_ws/nipaproj_ws/model/wandb/run-20241030_150415-l0gxv1gq/logs/debug-core.log"}
+{"time":"2024-10-30T15:04:15.415121859+09:00","level":"INFO","msg":"created new stream","id":"l0gxv1gq"}
+{"time":"2024-10-30T15:04:15.415202644+09:00","level":"INFO","msg":"stream: started","id":"l0gxv1gq"}
+{"time":"2024-10-30T15:04:15.415258937+09:00","level":"INFO","msg":"sender: started","stream_id":"l0gxv1gq"}
+{"time":"2024-10-30T15:04:15.415242997+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"l0gxv1gq"}}
+{"time":"2024-10-30T15:04:15.415288555+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"l0gxv1gq"}}
+{"time":"2024-10-30T15:04:15.799446621+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-30T15:15:42.369470342+09:00","level":"INFO","msg":"stream: closing","id":"l0gxv1gq"}
+{"time":"2024-10-30T15:15:42.369533435+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-30T15:15:42.370518164+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-30T15:15:43.017287509+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-30T15:15:43.01732145+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-30T15:15:43.017334956+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-30T15:15:43.577405108+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-30T15:15:43.847002376+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"l0gxv1gq"}}
+{"time":"2024-10-30T15:15:43.847104653+09:00","level":"INFO","msg":"sender: closed","stream_id":"l0gxv1gq"}
+{"time":"2024-10-30T15:15:43.847087023+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"l0gxv1gq"}}
+{"time":"2024-10-30T15:15:43.84725483+09:00","level":"INFO","msg":"stream: closed","id":"l0gxv1gq"}

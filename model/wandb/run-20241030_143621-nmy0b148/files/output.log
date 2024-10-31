@@ -1,0 +1,64 @@
+cuda:0
+Epoch [1/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.08it/s, loss=0.564]
+Epoch [1/100], Training Loss: 0.5842
+Epoch [1/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 109.66it/s, loss=0.485]
+Epoch [1/100], Validation Loss: 0.4807
+Epoch [2/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.09it/s, loss=0.405]
+Epoch [2/100], Training Loss: 0.4893
+Epoch [2/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 110.86it/s, loss=0.353]
+Epoch [2/100], Validation Loss: 0.4334
+Epoch [3/100] Training: 100%|██████████| 192/192 [00:07<00:00, 24.39it/s, loss=0.575]
+Epoch [3/100], Training Loss: 0.4614
+Epoch [3/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 110.02it/s, loss=0.367]
+Epoch [3/100], Validation Loss: 0.4189
+Epoch [4/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.86it/s, loss=0.385]
+Epoch [4/100], Training Loss: 0.4519
+Epoch [4/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 109.63it/s, loss=0.41] 
+Epoch [4/100], Validation Loss: 0.3929
+Epoch [5/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.09it/s, loss=0.603]
+Epoch [5/100], Training Loss: 0.4360
+Epoch [5/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 110.09it/s, loss=0.379]
+Epoch [5/100], Validation Loss: 0.4079
+Epoch [6/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.91it/s, loss=0.389]
+Epoch [6/100], Training Loss: 0.4413
+Epoch [6/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 92.90it/s, loss=0.23] 
+Epoch [6/100], Validation Loss: 0.3880
+Epoch [7/100] Training: 100%|██████████| 192/192 [00:06<00:00, 28.50it/s, loss=0.399]
+Epoch [7/100], Training Loss: 0.4240
+Epoch [7/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 98.43it/s, loss=0.315] 
+Epoch [7/100], Validation Loss: 0.3892
+Epoch [8/100] Training: 100%|██████████| 192/192 [00:07<00:00, 25.71it/s, loss=0.412]
+Epoch [8/100], Training Loss: 0.4205
+Epoch [8/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 86.39it/s, loss=0.452]
+Epoch [8/100], Validation Loss: 0.3826
+Epoch [9/100] Training: 100%|██████████| 192/192 [00:08<00:00, 22.98it/s, loss=0.185]
+Epoch [9/100], Training Loss: 0.4279
+Epoch [9/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 106.05it/s, loss=0.475]
+Epoch [9/100], Validation Loss: 0.4030
+Epoch [10/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.42it/s, loss=0.572]
+Epoch [10/100], Training Loss: 0.4269
+Epoch [10/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 108.81it/s, loss=0.371]
+Epoch [10/100], Validation Loss: 0.3924
+Epoch [11/100] Training: 100%|██████████| 192/192 [00:05<00:00, 37.80it/s, loss=0.569]
+Epoch [11/100], Training Loss: 0.4159
+Epoch [11/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 107.67it/s, loss=0.347]
+Epoch [11/100], Validation Loss: 0.3723
+Epoch [12/100] Training: 100%|██████████| 192/192 [00:08<00:00, 23.08it/s, loss=0.429]
+Epoch [12/100], Training Loss: 0.4039
+Epoch [12/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 104.10it/s, loss=0.511]
+Epoch [12/100], Validation Loss: 0.3960
+Epoch [13/100] Training: 100%|██████████| 192/192 [00:08<00:00, 22.67it/s, loss=0.305]
+Epoch [13/100], Training Loss: 0.4148
+Epoch [13/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 107.43it/s, loss=0.299]
+Epoch [13/100], Validation Loss: 0.3693
+Epoch [14/100] Training: 100%|██████████| 192/192 [00:08<00:00, 22.63it/s, loss=0.354]
+Epoch [14/100], Training Loss: 0.4066
+Epoch [14/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 102.97it/s, loss=0.261]
+Epoch [14/100], Validation Loss: 0.3812
+Epoch [15/100] Training: 100%|██████████| 192/192 [00:08<00:00, 22.44it/s, loss=0.278]
+Epoch [15/100], Training Loss: 0.4126
+Epoch [15/100] Validation: 100%|██████████| 48/48 [00:00<00:00, 108.37it/s, loss=0.316]
+Epoch [15/100], Validation Loss: 0.3862
+Epoch [16/100] Training: 100%|██████████| 192/192 [00:08<00:00, 22.73it/s, loss=0.441]
+Epoch [16/100], Training Loss: 0.4072
+Epoch [16/100] Validation:  69%|██████▉   | 33/48 [00:00<00:00, 104.98it/s, loss=0.328]

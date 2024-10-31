@@ -1,0 +1,23 @@
+cuda
+current epoch is 0
+current batch is 0
+Traceback (most recent call last):
+  File "/home/baebro/landmark_extraction/model/train.py", line 109, in <module>
+    anchor_emb = model(anchor)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baebro/landmark_extraction/model/model.py", line 20, in forward
+    x, _ = self.lstm1(x)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1100, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1000, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 312, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 12, got 99

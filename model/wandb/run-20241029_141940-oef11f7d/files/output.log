@@ -1,0 +1,7 @@
+cuda
+loader check! 192
+Epoch [1/100], Training Loss: 0.6926
+Epoch [1/100], Validation Loss: 0.6928
+loader check! 192
+Epoch [2/100], Training Loss: 0.6942
+Epoch [2/100], Validation Loss: 0.6931

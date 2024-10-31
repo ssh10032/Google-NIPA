@@ -1,0 +1,27 @@
+2024-10-28 14:50:13,874 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Configure stats pid to 1239888
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Loading settings from /home/baebro/.config/wandb/settings
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Loading settings from /home/baebro/landmark_extraction/model/wandb/settings
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'main2.py', 'program_abspath': '/home/baebro/landmark_extraction/model/main2.py', 'program': '/home/baebro/landmark_extraction/model/main2.py'}
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_init.py:_log_setup():534] Logging user logs to /home/baebro/landmark_extraction/model/wandb/run-20241028_145013-w20hteiz/logs/debug.log
+2024-10-28 14:50:13,875 INFO    MainThread:1239888 [wandb_init.py:_log_setup():535] Logging internal logs to /home/baebro/landmark_extraction/model/wandb/run-20241028_145013-w20hteiz/logs/debug-internal.log
+2024-10-28 14:50:13,876 INFO    MainThread:1239888 [wandb_init.py:init():621] calling init triggers
+2024-10-28 14:50:13,876 INFO    MainThread:1239888 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-28 14:50:13,876 INFO    MainThread:1239888 [wandb_init.py:init():671] starting backend
+2024-10-28 14:50:13,876 INFO    MainThread:1239888 [wandb_init.py:init():675] sending inform_init request
+2024-10-28 14:50:13,878 INFO    MainThread:1239888 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-28 14:50:13,879 INFO    MainThread:1239888 [wandb_init.py:init():688] backend started and connected
+2024-10-28 14:50:13,883 INFO    MainThread:1239888 [wandb_init.py:init():783] updated telemetry
+2024-10-28 14:50:13,884 INFO    MainThread:1239888 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-28 14:50:14,308 INFO    MainThread:1239888 [wandb_init.py:init():867] starting run threads in backend
+2024-10-28 14:50:14,411 INFO    MainThread:1239888 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-28 14:50:14,411 INFO    MainThread:1239888 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-28 14:50:14,411 INFO    MainThread:1239888 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-28 14:50:14,411 INFO    MainThread:1239888 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-28 14:50:14,412 INFO    MainThread:1239888 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-28 14:50:19,094 INFO    MainThread:1239888 [wandb_run.py:_config_callback():1390] config_cb None None {'learning_rate': 0.001, 'epochs': 10, 'batch_size': 16, 'feature_dim': 44, 'output_dim': 128}
+2024-10-28 14:50:19,139 WARNING MsgRouterThr:1239888 [router.py:message_loop():77] message_loop has been closed

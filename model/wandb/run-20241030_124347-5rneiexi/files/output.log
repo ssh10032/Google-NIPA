@@ -1,0 +1,6 @@
+cuda:0
+current epoch is 0
+Traceback (most recent call last):
+  File "/home/baebro/Downloads/pycharm-2021.3/plugins/python/helpers/pydev/_pydevd_bundle/pydevd_comm.py", line 303, in _on_run
+    r = r.decode('utf-8')
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 1022-1023: unexpected end of data

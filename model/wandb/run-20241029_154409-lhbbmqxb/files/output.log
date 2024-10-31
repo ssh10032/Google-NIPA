@@ -1,0 +1,15 @@
+cuda
+Traceback (most recent call last):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/landmark_extraction/dataloader/dataloader.py", line 97, in __getitem__
+    negative_idx = np.random.choice(self.label_to_indices[neg_label])
+KeyError: '음파음파 (레드벨벳)'

@@ -1,0 +1,8 @@
+{"time":"2024-10-29T14:43:44.557649386+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T14:43:44.557679432+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241029_144344-nidyed8o/logs/debug-core.log"}
+{"time":"2024-10-29T14:43:44.669065209+09:00","level":"INFO","msg":"created new stream","id":"nidyed8o"}
+{"time":"2024-10-29T14:43:44.66914189+09:00","level":"INFO","msg":"stream: started","id":"nidyed8o"}
+{"time":"2024-10-29T14:43:44.669333468+09:00","level":"INFO","msg":"sender: started","stream_id":"nidyed8o"}
+{"time":"2024-10-29T14:43:44.669240089+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nidyed8o"}}
+{"time":"2024-10-29T14:43:44.66932217+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nidyed8o"}}
+{"time":"2024-10-29T14:43:45.022447855+09:00","level":"INFO","msg":"Starting system monitor"}

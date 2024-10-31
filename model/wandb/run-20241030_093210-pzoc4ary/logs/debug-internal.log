@@ -1,0 +1,8 @@
+{"time":"2024-10-30T09:32:10.21500534+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T09:32:10.215038007+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/nipa_ws/nipaproj_ws/model/wandb/run-20241030_093210-pzoc4ary/logs/debug-core.log"}
+{"time":"2024-10-30T09:32:10.326560676+09:00","level":"INFO","msg":"created new stream","id":"pzoc4ary"}
+{"time":"2024-10-30T09:32:10.326631907+09:00","level":"INFO","msg":"stream: started","id":"pzoc4ary"}
+{"time":"2024-10-30T09:32:10.326792319+09:00","level":"INFO","msg":"sender: started","stream_id":"pzoc4ary"}
+{"time":"2024-10-30T09:32:10.326741814+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pzoc4ary"}}
+{"time":"2024-10-30T09:32:10.326800019+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"pzoc4ary"}}
+{"time":"2024-10-30T09:32:10.804371818+09:00","level":"INFO","msg":"Starting system monitor"}

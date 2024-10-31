@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+feature_dim:
+  value: 8
+learning_rate:
+  value: 0.0001
+margin:
+  value: 1
+output_dim:
+  value: 256

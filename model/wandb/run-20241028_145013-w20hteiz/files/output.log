@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/baebro/landmark_extraction/model/main2.py", line 202, in <module>
+    for batch_idx, (features1, features2, features3) in enumerate(dataloader):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/baebro/landmark_extraction/model/main2.py", line 134, in __getitem__
+    positive_idx = np.random.choice(self.label_to_indices[label])
+AttributeError: 'LandmarkAngleDataset' object has no attribute 'label_to_indices'

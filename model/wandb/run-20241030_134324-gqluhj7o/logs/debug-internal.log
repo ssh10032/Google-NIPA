@@ -1,0 +1,9 @@
+{"time":"2024-10-30T13:43:24.044323092+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T13:43:24.044360052+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/nipa_ws/nipaproj_ws/model/wandb/run-20241030_134324-gqluhj7o/logs/debug-core.log"}
+{"time":"2024-10-30T13:43:24.15608244+09:00","level":"INFO","msg":"created new stream","id":"gqluhj7o"}
+{"time":"2024-10-30T13:43:24.15616213+09:00","level":"INFO","msg":"stream: started","id":"gqluhj7o"}
+{"time":"2024-10-30T13:43:24.156229337+09:00","level":"INFO","msg":"sender: started","stream_id":"gqluhj7o"}
+{"time":"2024-10-30T13:43:24.156197976+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gqluhj7o"}}
+{"time":"2024-10-30T13:43:24.156281342+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"gqluhj7o"}}
+{"time":"2024-10-30T13:43:24.534910563+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-30T14:09:40.533892463+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/songoh/skeleton_lstm_contrastive/gqluhj7o/file_stream"}

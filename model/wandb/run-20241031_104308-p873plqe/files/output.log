@@ -1,0 +1,8 @@
+cuda:0
+Epoch [1/2000] Training:   0%|          | 0/192 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train_bc.py", line 202, in <module>
+    main()
+  File "/home/baebro/nipa_ws/nipaproj_ws/model/train_bc.py", line 86, in main
+    for batch_idx, (anchor, pos, neg, labels) in enumerate(train_loader_tqdm):
+ValueError: not enough values to unpack (expected 4, got 3)

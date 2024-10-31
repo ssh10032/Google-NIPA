@@ -1,0 +1,8 @@
+{"time":"2024-10-28T14:28:43.262458409+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-28T14:28:43.262491699+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241028_142843-mxgtity2/logs/debug-core.log"}
+{"time":"2024-10-28T14:28:43.373509585+09:00","level":"INFO","msg":"created new stream","id":"mxgtity2"}
+{"time":"2024-10-28T14:28:43.373876437+09:00","level":"INFO","msg":"stream: started","id":"mxgtity2"}
+{"time":"2024-10-28T14:28:43.373926844+09:00","level":"INFO","msg":"sender: started","stream_id":"mxgtity2"}
+{"time":"2024-10-28T14:28:43.373928732+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"mxgtity2"}}
+{"time":"2024-10-28T14:28:43.373908568+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mxgtity2"}}
+{"time":"2024-10-28T14:28:43.757353597+09:00","level":"INFO","msg":"Starting system monitor"}

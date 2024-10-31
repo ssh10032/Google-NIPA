@@ -1,0 +1,7 @@
+cuda:0
+Epoch [1/2] Training: 100%|██████████| 89/89 [00:04<00:00, 18.23it/s, N_classification_loss=0.454, P_classification_loss=0.43, contrastive_loss=0.124, loss=1.45] 
+Epoch [1/2] Validation: 100%|██████████| 23/23 [00:00<00:00, 88.14it/s, N_classification_loss=0.913, P_classification_loss=0.465, contrastive_loss=0.321, loss=2.39]
+Epoch [2/2] Training: 100%|██████████| 89/89 [00:04<00:00, 20.81it/s, N_classification_loss=0.184, P_classification_loss=0.227, contrastive_loss=0.061, loss=0.678]
+Epoch [2/2] Validation: 100%|██████████| 23/23 [00:00<00:00, 93.97it/s, N_classification_loss=0.809, P_classification_loss=0.627, contrastive_loss=0.057, loss=2.21]
+
+Training complete!

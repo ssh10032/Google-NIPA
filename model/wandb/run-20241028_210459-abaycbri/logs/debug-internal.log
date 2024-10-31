@@ -1,0 +1,20 @@
+{"time":"2024-10-28T21:04:59.78289795+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-28T21:04:59.782930315+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241028_210459-abaycbri/logs/debug-core.log"}
+{"time":"2024-10-28T21:04:59.893832739+09:00","level":"INFO","msg":"created new stream","id":"abaycbri"}
+{"time":"2024-10-28T21:04:59.893910401+09:00","level":"INFO","msg":"stream: started","id":"abaycbri"}
+{"time":"2024-10-28T21:04:59.893967227+09:00","level":"INFO","msg":"sender: started","stream_id":"abaycbri"}
+{"time":"2024-10-28T21:04:59.893943895+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"abaycbri"}}
+{"time":"2024-10-28T21:04:59.893965198+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"abaycbri"}}
+{"time":"2024-10-28T21:05:00.241733436+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-28T22:54:03.061711436+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-28T22:54:03.062456393+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-28T22:54:03.496513302+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-28T22:54:03.496547883+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-28T22:54:03.496560167+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-28T22:54:03.990542789+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-28T22:54:04.062339892+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary","runtime_seconds":0.071526461}],"total_operations":1}}
+{"time":"2024-10-28T22:54:05.336770069+09:00","level":"INFO","msg":"stream: closing","id":"abaycbri"}
+{"time":"2024-10-28T22:54:05.336797479+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"abaycbri"}}
+{"time":"2024-10-28T22:54:05.336821438+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"abaycbri"}}
+{"time":"2024-10-28T22:54:05.336840133+09:00","level":"INFO","msg":"sender: closed","stream_id":"abaycbri"}
+{"time":"2024-10-28T22:54:05.33689974+09:00","level":"INFO","msg":"stream: closed","id":"abaycbri"}

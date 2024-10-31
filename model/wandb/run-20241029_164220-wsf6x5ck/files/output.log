@@ -1,0 +1,25 @@
+cuda
+Traceback (most recent call last):
+  File "/home/baebro/landmark_extraction/model/train.py", line 102, in <module>
+    for batch_idx, (anchor, pos, neg) in enumerate(train_dataloader):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1445, in _next_data
+    return self._process_data(data)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+    raise exception
+KeyError: Caught KeyError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/anaconda3/envs/mp/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/baebro/landmark_extraction/dataloader/dataloader.py", line 96, in __getitem__
+    negative_idx = np.random.choice(self.label_to_indices[(neg_label, start_frame)])
+KeyError: ('아름다워 (샤이니)', 90)

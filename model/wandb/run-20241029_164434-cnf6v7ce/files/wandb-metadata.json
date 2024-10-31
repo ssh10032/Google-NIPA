@@ -1,0 +1,49 @@
+{
+  "os":  "Linux-5.15.0-122-generic-x86_64-with-glibc2.31",
+  "python":  "3.10.15",
+  "startedAt":  "2024-10-29T07:44:34.606179Z",
+  "program":  "/home/baebro/landmark_extraction/model/train.py",
+  "codePath":  "model/train.py",
+  "git":  {
+    "remote":  "https://github.com/ssh10032/Google-NIPA.git",
+    "commit":  "345b25e1a1c7c2a9d50e64dcebc5ed58ad1fd36e"
+  },
+  "email":  "ssh10032@kyonggi.ac.kr",
+  "root":  "/home/baebro/landmark_extraction/model",
+  "host":  "hobeAilab",
+  "username":  "baebro",
+  "executable":  "/home/baebro/anaconda3/envs/mp/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  10,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA GeForce RTX 3080 Ti",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "982818799616",
+      "used":  "669953806336"
+    }
+  },
+  "memory":  {
+    "total":  "67026595840"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  20
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3080 Ti",
+      "memoryTotal":  "12884901888",
+      "cudaCores":  10240,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA GeForce RTX 3080 Ti",
+      "memoryTotal":  "12884901888",
+      "cudaCores":  10240,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

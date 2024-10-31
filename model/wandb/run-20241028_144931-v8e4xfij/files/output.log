@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/baebro/landmark_extraction/model/main2.py", line 176, in <module>
+    dataset = LandmarkAngleDataset()
+TypeError: LandmarkAngleDataset.__init__() missing 1 required positional argument: 'root_dir'

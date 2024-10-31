@@ -1,0 +1,8 @@
+{"time":"2024-10-30T09:42:06.456230881+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T09:42:06.456260717+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/nipa_ws/nipaproj_ws/model/wandb/run-20241030_094206-360tvyy6/logs/debug-core.log"}
+{"time":"2024-10-30T09:42:06.56836243+09:00","level":"INFO","msg":"created new stream","id":"360tvyy6"}
+{"time":"2024-10-30T09:42:06.568449732+09:00","level":"INFO","msg":"stream: started","id":"360tvyy6"}
+{"time":"2024-10-30T09:42:06.568540626+09:00","level":"INFO","msg":"sender: started","stream_id":"360tvyy6"}
+{"time":"2024-10-30T09:42:06.568490143+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"360tvyy6"}}
+{"time":"2024-10-30T09:42:06.56851885+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"360tvyy6"}}
+{"time":"2024-10-30T09:42:06.943454555+09:00","level":"INFO","msg":"Starting system monitor"}

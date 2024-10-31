@@ -1,0 +1,11 @@
+{"time":"2024-10-29T15:43:26.24893441+09:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T15:43:26.248964843+09:00","level":"INFO","msg":"created symlink","path":"/home/baebro/landmark_extraction/model/wandb/run-20241029_154326-x8gv7grl/logs/debug-core.log"}
+{"time":"2024-10-29T15:43:26.360831765+09:00","level":"INFO","msg":"created new stream","id":"x8gv7grl"}
+{"time":"2024-10-29T15:43:26.360910945+09:00","level":"INFO","msg":"stream: started","id":"x8gv7grl"}
+{"time":"2024-10-29T15:43:26.361021514+09:00","level":"INFO","msg":"sender: started","stream_id":"x8gv7grl"}
+{"time":"2024-10-29T15:43:26.361007944+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"x8gv7grl"}}
+{"time":"2024-10-29T15:43:26.361034338+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"x8gv7grl"}}
+{"time":"2024-10-29T15:43:26.748299314+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T15:43:51.395313425+09:00","level":"INFO","msg":"stream: closing","id":"x8gv7grl"}
+{"time":"2024-10-29T15:43:51.395383486+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T15:43:51.396465715+09:00","level":"INFO","msg":"Stopped system monitor"}

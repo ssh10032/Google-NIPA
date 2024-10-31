@@ -1,0 +1,262 @@
+cuda
+loader check! 20
+Epoch [1/100], Training Loss: 0.8648
+Epoch [1/100], Validation Loss: 0.6600
+loader check! 20
+Epoch [2/100], Training Loss: 0.6224
+Epoch [2/100], Validation Loss: 0.6298
+loader check! 20
+Epoch [3/100], Training Loss: 0.6334
+Epoch [3/100], Validation Loss: 0.7753
+loader check! 20
+Epoch [4/100], Training Loss: 0.6875
+Epoch [4/100], Validation Loss: 0.4939
+loader check! 20
+Epoch [5/100], Training Loss: 0.6646
+Epoch [5/100], Validation Loss: 0.5622
+loader check! 20
+Epoch [6/100], Training Loss: 0.6061
+Epoch [6/100], Validation Loss: 0.5674
+loader check! 20
+Epoch [7/100], Training Loss: 0.6103
+Epoch [7/100], Validation Loss: 0.7507
+loader check! 20
+Epoch [8/100], Training Loss: 0.6101
+Epoch [8/100], Validation Loss: 0.7103
+loader check! 20
+Epoch [9/100], Training Loss: 0.5706
+Epoch [9/100], Validation Loss: 0.6327
+loader check! 20
+Epoch [10/100], Training Loss: 0.6145
+Epoch [10/100], Validation Loss: 0.6721
+loader check! 20
+Epoch [11/100], Training Loss: 0.6176
+Epoch [11/100], Validation Loss: 0.5129
+loader check! 20
+Epoch [12/100], Training Loss: 0.5446
+Epoch [12/100], Validation Loss: 0.4798
+loader check! 20
+Epoch [13/100], Training Loss: 0.5038
+Epoch [13/100], Validation Loss: 0.4541
+loader check! 20
+Epoch [14/100], Training Loss: 0.5300
+Epoch [14/100], Validation Loss: 0.5476
+loader check! 20
+Epoch [15/100], Training Loss: 0.5451
+Epoch [15/100], Validation Loss: 0.5199
+loader check! 20
+Epoch [16/100], Training Loss: 0.5609
+Epoch [16/100], Validation Loss: 0.4349
+loader check! 20
+Epoch [17/100], Training Loss: 0.4962
+Epoch [17/100], Validation Loss: 0.5583
+loader check! 20
+Epoch [18/100], Training Loss: 0.5503
+Epoch [18/100], Validation Loss: 0.5440
+loader check! 20
+Epoch [19/100], Training Loss: 0.5016
+Epoch [19/100], Validation Loss: 0.5893
+loader check! 20
+Epoch [20/100], Training Loss: 0.5541
+Epoch [20/100], Validation Loss: 0.4808
+loader check! 20
+Epoch [21/100], Training Loss: 0.5335
+Epoch [21/100], Validation Loss: 0.6116
+loader check! 20
+Epoch [22/100], Training Loss: 0.5440
+Epoch [22/100], Validation Loss: 0.5176
+loader check! 20
+Epoch [23/100], Training Loss: 0.4910
+Epoch [23/100], Validation Loss: 0.5547
+loader check! 20
+Epoch [24/100], Training Loss: 0.5473
+Epoch [24/100], Validation Loss: 0.5813
+loader check! 20
+Epoch [25/100], Training Loss: 0.5372
+Epoch [25/100], Validation Loss: 0.5592
+loader check! 20
+Epoch [26/100], Training Loss: 0.5100
+Epoch [26/100], Validation Loss: 0.4968
+loader check! 20
+Epoch [27/100], Training Loss: 0.5254
+Epoch [27/100], Validation Loss: 0.5913
+loader check! 20
+Epoch [28/100], Training Loss: 0.5180
+Epoch [28/100], Validation Loss: 0.4985
+loader check! 20
+Epoch [29/100], Training Loss: 0.5301
+Epoch [29/100], Validation Loss: 0.5082
+loader check! 20
+Epoch [30/100], Training Loss: 0.5220
+Epoch [30/100], Validation Loss: 0.4724
+loader check! 20
+Epoch [31/100], Training Loss: 0.5016
+Epoch [31/100], Validation Loss: 0.5391
+loader check! 20
+Epoch [32/100], Training Loss: 0.4724
+Epoch [32/100], Validation Loss: 0.4555
+loader check! 20
+Epoch [33/100], Training Loss: 0.5322
+Epoch [33/100], Validation Loss: 0.5979
+loader check! 20
+Epoch [34/100], Training Loss: 0.4876
+Epoch [34/100], Validation Loss: 0.6449
+loader check! 20
+Epoch [35/100], Training Loss: 0.5028
+Epoch [35/100], Validation Loss: 0.5378
+loader check! 20
+Epoch [36/100], Training Loss: 0.4663
+Epoch [36/100], Validation Loss: 0.4308
+loader check! 20
+Epoch [37/100], Training Loss: 0.4821
+Epoch [37/100], Validation Loss: 0.5018
+loader check! 20
+Epoch [38/100], Training Loss: 0.4898
+Epoch [38/100], Validation Loss: 0.4860
+loader check! 20
+Epoch [39/100], Training Loss: 0.5558
+Epoch [39/100], Validation Loss: 0.4762
+loader check! 20
+Epoch [40/100], Training Loss: 0.5379
+Epoch [40/100], Validation Loss: 0.5165
+loader check! 20
+Epoch [41/100], Training Loss: 0.5170
+Epoch [41/100], Validation Loss: 0.4925
+loader check! 20
+Epoch [42/100], Training Loss: 0.5012
+Epoch [42/100], Validation Loss: 0.5871
+loader check! 20
+Epoch [43/100], Training Loss: 0.5222
+Epoch [43/100], Validation Loss: 0.5597
+loader check! 20
+Epoch [44/100], Training Loss: 0.5027
+Epoch [44/100], Validation Loss: 0.5816
+loader check! 20
+Epoch [45/100], Training Loss: 0.5499
+Epoch [45/100], Validation Loss: 0.5194
+loader check! 20
+Epoch [46/100], Training Loss: 0.4969
+Epoch [46/100], Validation Loss: 0.4739
+loader check! 20
+Epoch [47/100], Training Loss: 0.5206
+Epoch [47/100], Validation Loss: 0.5843
+loader check! 20
+Epoch [48/100], Training Loss: 0.5216
+Epoch [48/100], Validation Loss: 0.6363
+loader check! 20
+Epoch [49/100], Training Loss: 0.5409
+Epoch [49/100], Validation Loss: 0.5396
+loader check! 20
+Epoch [50/100], Training Loss: 0.4925
+Epoch [50/100], Validation Loss: 0.5622
+loader check! 20
+Epoch [51/100], Training Loss: 0.5031
+Epoch [51/100], Validation Loss: 0.4917
+loader check! 20
+Epoch [52/100], Training Loss: 0.5105
+Epoch [52/100], Validation Loss: 0.5786
+loader check! 20
+Epoch [53/100], Training Loss: 0.5474
+Epoch [53/100], Validation Loss: 0.5094
+loader check! 20
+Epoch [54/100], Training Loss: 0.5050
+Epoch [54/100], Validation Loss: 0.5250
+loader check! 20
+Epoch [55/100], Training Loss: 0.5151
+Epoch [55/100], Validation Loss: 0.7056
+loader check! 20
+Epoch [56/100], Training Loss: 0.4938
+Epoch [56/100], Validation Loss: 0.4833
+loader check! 20
+Epoch [57/100], Training Loss: 0.5100
+Epoch [57/100], Validation Loss: 0.4805
+loader check! 20
+Epoch [58/100], Training Loss: 0.5125
+Epoch [58/100], Validation Loss: 0.5572
+loader check! 20
+Epoch [59/100], Training Loss: 0.5392
+Epoch [59/100], Validation Loss: 0.5933
+loader check! 20
+Epoch [60/100], Training Loss: 0.5292
+Epoch [60/100], Validation Loss: 0.5363
+loader check! 20
+Epoch [61/100], Training Loss: 0.4620
+Epoch [61/100], Validation Loss: 0.5570
+loader check! 20
+Epoch [62/100], Training Loss: 0.4937
+Epoch [62/100], Validation Loss: 0.6333
+loader check! 20
+Epoch [63/100], Training Loss: 0.5183
+Epoch [63/100], Validation Loss: 0.5670
+loader check! 20
+Epoch [64/100], Training Loss: 0.5157
+Epoch [64/100], Validation Loss: 0.6098
+loader check! 20
+Epoch [65/100], Training Loss: 0.5050
+Epoch [65/100], Validation Loss: 0.6004
+loader check! 20
+Epoch [66/100], Training Loss: 0.5189
+Epoch [66/100], Validation Loss: 0.5855
+loader check! 20
+Epoch [67/100], Training Loss: 0.5382
+Epoch [67/100], Validation Loss: 0.5251
+loader check! 20
+Epoch [68/100], Training Loss: 0.5137
+Epoch [68/100], Validation Loss: 0.5314
+loader check! 20
+Epoch [69/100], Training Loss: 0.5081
+Epoch [69/100], Validation Loss: 0.5415
+loader check! 20
+Epoch [70/100], Training Loss: 0.5391
+Epoch [70/100], Validation Loss: 0.4654
+loader check! 20
+Epoch [71/100], Training Loss: 0.5197
+Epoch [71/100], Validation Loss: 0.5190
+loader check! 20
+Epoch [72/100], Training Loss: 0.5041
+Epoch [72/100], Validation Loss: 0.5339
+loader check! 20
+Epoch [73/100], Training Loss: 0.5596
+Epoch [73/100], Validation Loss: 0.5371
+loader check! 20
+Epoch [74/100], Training Loss: 0.4782
+Epoch [74/100], Validation Loss: 0.4882
+loader check! 20
+Epoch [75/100], Training Loss: 0.5475
+Epoch [75/100], Validation Loss: 0.5309
+loader check! 20
+Epoch [76/100], Training Loss: 0.5045
+Epoch [76/100], Validation Loss: 0.4779
+loader check! 20
+Epoch [77/100], Training Loss: 0.4613
+Epoch [77/100], Validation Loss: 0.6056
+loader check! 20
+Epoch [78/100], Training Loss: 0.5289
+Epoch [78/100], Validation Loss: 0.5190
+loader check! 20
+Epoch [79/100], Training Loss: 0.4962
+Epoch [79/100], Validation Loss: 0.4552
+loader check! 20
+Epoch [80/100], Training Loss: 0.5203
+Epoch [80/100], Validation Loss: 0.5717
+loader check! 20
+Epoch [81/100], Training Loss: 0.4974
+Epoch [81/100], Validation Loss: 0.4815
+loader check! 20
+Epoch [82/100], Training Loss: 0.5091
+Epoch [82/100], Validation Loss: 0.6232
+loader check! 20
+Epoch [83/100], Training Loss: 0.5322
+Epoch [83/100], Validation Loss: 0.6305
+loader check! 20
+Epoch [84/100], Training Loss: 0.5164
+Epoch [84/100], Validation Loss: 0.5468
+loader check! 20
+Epoch [85/100], Training Loss: 0.5041
+Epoch [85/100], Validation Loss: 0.4724
+loader check! 20
+Epoch [86/100], Training Loss: 0.4684
+Epoch [86/100], Validation Loss: 0.4612
+Early stopping triggered!
+Epoch [86/100], Average Loss: 0.4684
+Training complete!
