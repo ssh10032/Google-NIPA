@@ -87,6 +87,27 @@ class head(nn.Module):
         x = self.sigmoid(x)
         return x
 
+class head_128(nn.Module):
+    def __init__(self):
+        super(head_128, self).__init__()
+
+        # Feedforward layers
+        self.fc1 = nn.Linear(128, 64)
+        self.relu = nn.ReLU()
+        self.fc2 = nn.Linear(64, 32)
+        self.relu = nn.ReLU()
+        self.fc3 = nn.Linear(32, 1)  # Output layer has 1 unit for binary classification
+        self.sigmoid = nn.Sigmoid()  # Sigmoid for probability output
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.relu(x)
+        x = self.fc2(x)
+        x = self.relu(x)
+        x = self.fc3(x)
+        x = self.sigmoid(x)
+        return x
+
 class skeletonLSTM_bc(nn.Module):
     def __init__(self, input_size, output_dim):
         super(skeletonLSTM_bc, self).__init__()
