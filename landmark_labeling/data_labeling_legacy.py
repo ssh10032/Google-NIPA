@@ -26,6 +26,7 @@ print(f"Number of landmarks: {num_landmarks}")
 
 # 이미지 폴더 경로 설정
 image_folder = "/media/baebro/NIPA_data/Train"  # 여기에 최상위 폴더 경로를 입력하세요
+# image_folder = "/home/baebro/nipa_ws/nipaproj_ws/sample_videos/mara"
 output_base_folder = os.path.join(image_folder, "landmarks")
 
 # 하위 폴더 포함 모든 이미지 파일에 대해 처리
