@@ -31,4 +31,10 @@
 ## 손실 함수
 
 ---
-## 
+## 개발 환경
+  + <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a> 
+  + OS : Ubuntu 20.04.6 LTS 
+  + GPU : NVIDIA GeForce RTX 3080 Ti x 2
+  + CPU : i9-10940X
+  + CUDA : 12.6
+
