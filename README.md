@@ -7,8 +7,6 @@
 ---
 # 모델 아키텍쳐
 ![image](https://github.com/user-attachments/assets/bf722219-088e-4000-82e3-10a6f46a9b2d)
-  +
-  +
 
 ---
 # 학습 데이터
