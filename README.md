@@ -57,10 +57,10 @@
 ---
 # 개발 환경
 ![개발환경](https://github.com/user-attachments/assets/8ad4b474-a18d-4ab7-b536-7141bfa985da)
-  + <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a> 
-  + OS : Ubuntu 20.04.6 LTS 
-  + GPU : NVIDIA GeForce RTX 3080 Ti x 2
-  + CPU : i9-10940X
-  + CUDA : 12.6
++ <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a> 
++ OS : Ubuntu 20.04.6 LTS 
++ GPU : NVIDIA GeForce RTX 3080 Ti x 2
++ CPU : i9-10940X
++ CUDA : 12.6
     
 
