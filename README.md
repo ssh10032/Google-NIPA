@@ -62,5 +62,3 @@
 + GPU : NVIDIA GeForce RTX 3080 Ti x 2
 + CPU : i9-10940X
 + CUDA : 12.6
-    
-
