@@ -88,23 +88,6 @@ def main():
     best_val_loss = np.inf
     epochs_no_improve = 0
     early_stop = False
-    pos1 = pd.read_csv(
-        '/home/baebro/nipa_ws/nipaproj_ws/sample_videos/labeled_data/pos1_infer/landmarks_3d_pos1_infer_angles.csv')
-    pos2 = pd.read_csv(
-        '/home/baebro/nipa_ws/nipaproj_ws/sample_videos/labeled_data/pos2_infer/landmarks_3d_pos2_infer_angles.csv')
-    neg = pd.read_csv(
-        '/home/baebro/nipa_ws/nipaproj_ws/sample_videos/labeled_data/neg_infer/landmarks_3d_neg_infer_angles.csv')
-    pos1_list = []
-    pos2_list = []
-    neg_list = []
-    for i in range(0, 300, sequence_length):
-        pos1_list.append(torch.tensor(pos1.iloc[i:i + sequence_length].values, dtype=torch.float32))
-        pos2_list.append(torch.tensor(pos2.iloc[i:i + sequence_length].values, dtype=torch.float32))
-        neg_list.append(torch.tensor(neg.iloc[i:i + sequence_length].values, dtype=torch.float32))
-
-    pos1_tensor = torch.stack(pos1_list, dim=0).to(device)
-    pos2_tensor = torch.stack(pos2_list, dim=0).to(device)
-    neg_tensor = torch.stack(neg_list, dim=0).to(device)
 
     # 학습 루프
     for epoch in range(num_epochs):
@@ -124,11 +107,6 @@ def main():
             optimizer.zero_grad()
             # 데이터를 장치로 이동
             anchor, pos, neg = anchor.to(device), pos.to(device), neg.to(device)
-
-            if batch_idx % 3==0:
-                anchor = torch.cat((anchor,pos1_tensor),dim=0)
-                pos = torch.cat((pos, pos2_tensor), dim=0)
-                neg = torch.cat((neg, neg_tensor), dim=0)
 
             # 모델에 통과하여 임베딩 생성 및 이진 분류 출력
             anchor_emb = model(anchor)
