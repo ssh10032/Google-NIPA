@@ -108,11 +108,6 @@ def main():
             # 데이터를 장치로 이동
             anchor, pos, neg = anchor.to(device), pos.to(device), neg.to(device)
 
-            if batch_idx % 3==0:
-                anchor = torch.cat((anchor,pos1_tensor),dim=0)
-                pos = torch.cat((pos, pos2_tensor), dim=0)
-                neg = torch.cat((neg, neg_tensor), dim=0)
-
             # 모델에 통과하여 임베딩 생성 및 이진 분류 출력
             anchor_emb = model(anchor)
             pos_emb = model(pos)
