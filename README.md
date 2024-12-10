@@ -1,4 +1,4 @@
-# Google-NIPA 프로젝트
+# Google-NIPA 실무 협력 프로젝트
 
 
 ---
