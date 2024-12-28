@@ -10,11 +10,13 @@
 # 모델 아키텍쳐
 ![image](https://github.com/user-attachments/assets/bf722219-088e-4000-82e3-10a6f46a9b2d)
 
+
 ---
 # 학습 데이터
 ![데이터소개](https://github.com/user-attachments/assets/ccb2819d-d0a8-4b14-9184-6c8fbdd0012b)
   + AI hub의 총 100 x 3 개 k pop 영상 사용 (안무 x 각도)
   + 숏폼은 같은 전방 영상이라도 카메라 각도가 다름을 확인
+
 
 ---
 # 데이터 전처리
