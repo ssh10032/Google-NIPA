@@ -1,6 +1,5 @@
 # Google-NIPA 실무 협력 프로젝트
 
-
 ---
 # 팀원
 ![팀원](https://github.com/user-attachments/assets/95218c3b-91dd-40ea-b0a3-6a2a6919e6cb)
